@@ -28,4 +28,6 @@ var mins = date.getMinutes();
 // Setting AM and PM
 if(hours > 11 && hours < 24 ) {
   var timeletters = "PM";
-} else { var timeletters = "AM"};
+} else { 
+  var timeletters = "AM";
+};
