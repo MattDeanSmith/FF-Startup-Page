@@ -1,4 +1,4 @@
 # FF-Startup-Page
 
-Created by Matthew Smith. \n
+Created by Matthew Smith. <br />
 Personal startup page for Firefox browser. 
