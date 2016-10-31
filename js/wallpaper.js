@@ -1,4 +1,5 @@
 // Changing the wallpaper
+
 function init() {
   // Sunday
   if(day == 'Sunday') {
