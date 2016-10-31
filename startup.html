@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <!-- CSS Linking -->
+    <link rel="Stylesheet" type="text/css" href="css/index_style.css" />
+    <link rel="Stylesheet" type="text/css" href="css/reset.css" />
+    <!-- Javascript Time/Date -->
+    <script type="text/javascript" src="js/timedate.js"></script>
+    <title>Welcome back, Matthew.</title>
+  </head>
+  <body onload="init()">
+
+    <!-- Background Song -->
+    <audio id="music" controls autoplay="1">
+     <source src="music/(YOUR SONG).mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Icons -->
+    <div id="icon-wrapper">
+      <div id="icons">
+        <!-- Close all links icon -->
+        <img id="closeAll" src="images/close.png">
+        <!-- Play song icon -->
+        <img id="playMusic" src="images/playMusic.png">
+        <!-- Pause song icon -->
+        <img id="stopMusic" src="images/stopMusic.png">
+      </div>
+    </div>
+    <!-- End of icons -->
+
+    <!-- Main Content -->
+    <div id="wrapper">
+
+      <!-- Time -->
+      <div id="time">
+        <h1><script>document.write(hours);</script>:<script>document.write(mins);</script><span class="small"><script>document.write(timeletters);</script></span></h1>
+      </div>
+      <!-- Date -->
+      <div id="date">
+        <h1><script>document.write(day + ' ' + dat + ' ' + monthNames[monthIndex] + ' ' + year);</script></h1>
+      </div>
+
+      <!-- Links -->
+      <div id="links">
+        <ul>
+          <li id="showCore">core.</li>
+          <li id="showNews">news.</li>
+          <li id="showEntertain">entertain.</li>
+          <li id="showChans">chans.</li>
+          <li id="showEtc">etc.</li>
+        </ul>
+      </div>
+
+        <!-- Core links -->
+        <div id="core">
+          <ul>
+            <li><a target="_blank" href="">| Link ###1.</a></li>
+            <li><a target="_blank" href="">| Link ##2.</a></li>
+            <li><a target="_blank" href="">| Link #3.</a></li>
+          </ul>
+        </div>
+
+        <!-- News links -->
+        <div id="news">
+          <ul>
+            <li><a target="_blank" href="">| Link ###1.</a></li>
+            <li><a target="_blank" href="">| Link ##2.</a></li>
+            <li><a target="_blank" href="">| Link #3.</a></li>
+          </ul>
+        </div>
+
+        <!-- Entertain links -->
+        <div id="entertain">
+          <ul>
+            <li><a target="_blank" href="">| Link ###1.</a></li>
+            <li><a target="_blank" href="">| Link ##2.</a></li>
+            <li><a target="_blank" href="">| Link #3.</a></li>
+          </ul>
+        </div>
+
+        <!-- Chans links -->
+        <div id="chans">
+          <ul>
+            <li><a target="_blank" href="">| Link ###1.</a></li>
+            <li><a target="_blank" href="">| Link ##2.</a></li>
+            <li><a target="_blank" href="">| Link #3.</a></li>
+          </ul>
+        </div>
+
+        <!-- Etc links -->
+        <div id="etc">
+          <ul>
+            <li><a target="_blank" href="">| Link ###1.</a></li>
+            <li><a target="_blank" href="">| Link ##2.</a></li>
+            <li><a target="_blank" href="">| Link #3.</a></li>
+          </ul>
+        </div>
+
+    </div>
+    <!-- End of main content -->
+
+  <!-- Javascript Wallpaper Change -->
+  <script type="text/javascript" src="js/wallpaper.js"></script>
+  <!-- Javascript Links -->
+  <script type="text/javascript" src="js/links.js"></script>
+  <!-- Javascript Music -->
+  <script type="text/javascript" src="js/music.js"></script>
+  </body>
+  </html>
