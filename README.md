@@ -1,6 +1,6 @@
 # FF-Startup-Page
 
-<img src="https://i.imgur.com/Mmgqemg.png">
+<img src="https://i.imgur.com/W3iJl49.png">
 
 Personal startup page for Firefox browser. <br />
 Created by Matthew Smith. <br />
