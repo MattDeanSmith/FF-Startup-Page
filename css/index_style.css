@@ -1,0 +1,219 @@
+body {
+  background-image: url('../images/tuesday.jpg');
+  background-size: 100%;
+}
+
+/*
+  Music.
+*/
+
+#music {
+  position: fixed;
+  display: none;
+  bottom: 0;
+  right: 0;
+}
+
+/*
+  Icons.
+*/
+
+#icon-wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#icons {
+  margin-top: 10px;
+  background-color: ;
+}
+
+#icons img {
+  height: 13px;
+}
+
+#icons #closeAll:hover {
+  background-color: #fff;
+  border-radius: 150px;
+  cursor: pointer;
+}
+
+#icons #stopMusic {
+  margin-right: 7px;
+  cursor: pointer;
+  float: right;
+}
+
+#icons #playMusic {
+  cursor: pointer;
+  float: right;
+}
+
+/*
+  Main Content.
+*/
+
+#wrapper {
+  text-align: center;
+  margin: 0 auto;
+  width: 375px;
+}
+
+/* Time. */
+#time {
+  margin-top: 50px;
+}
+
+#time h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 42px;
+  color: #fff;
+
+  border: 1px solid #fff;
+  letter-spacing: 3px;
+  padding: 18px;
+}
+
+.small {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  font-size: 14px;
+  bottom: 18px;
+  left: 5px;
+}
+
+/* Date. */
+#date {
+  margin-top: 10px;
+}
+
+#date h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Links. */
+#links {
+  margin-left: 35px;
+  margin-top: 35px;
+  height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:focus {
+  outline: 0;
+}
+
+#links ul {
+  list-style: none;
+}
+
+#links ul li {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  float: left;
+
+  border: 1px solid #fff;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+#links ul li:hover {
+  cursor: pointer;
+}
+
+#core {
+  margin-left: 35px;
+  margin-top: 10px;
+  width: 80px;
+
+  text-align: left;
+  display: none;
+}
+
+#core ul li {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #fff;
+
+  line-height: 20px;
+}
+
+#news {
+  margin-left: 35px;
+  margin-top: 10px;
+  text-align: left;
+  display: none;
+  width: 80px;
+}
+
+#news ul li {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #fff;
+
+  line-height: 20px;
+}
+
+#entertain {
+  margin-left: 35px;
+  margin-top: 10px;
+  text-align: left;
+  display: none;
+  width: 80px;
+}
+
+#entertain ul li {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #fff;
+
+  line-height: 20px;
+}
+
+#chans {
+  margin-left: 35px;
+  margin-top: 10px;
+  text-align: left;
+  display: none;
+  width: 80px;
+}
+
+#chans ul li {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #fff;
+
+  line-height: 20px;
+}
+
+#etc {
+  margin-left: 35px;
+  margin-top: 10px;
+  text-align: left;
+  display: none;
+  width: 80px;
+}
+
+#etc ul li {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #fff;
+
+  line-height: 20px;
+}
